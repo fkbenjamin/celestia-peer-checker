@@ -1,0 +1,5683 @@
+{
+  "jsonrpc": "2.0",
+  "id": -1,
+  "result": {
+    "listening": true,
+    "listeners": [
+      "Listener(@)"
+    ],
+    "n_peers": "45",
+    "peers": [
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "5c2a752c9b1952dbed075c56c600c3a79b58c395",
+          "listen_addr": "195.3.220.54:27206",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "z0tc7l5iimi5",
+          "other": {
+            "tx_index": "off",
+            "rpc_address": "tcp://0.0.0.0:26657"
+          }
+        },
+        "is_outbound": true,
+        "connection_status": {
+          "Duration": "3273649850289",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:02.34Z",
+            "Bytes": "304255179",
+            "Samples": "6397",
+            "InstRate": "61420",
+            "CurRate": "257126",
+            "AvgRate": "92943",
+            "PeakRate": "5222180",
+            "BytesRem": "0",
+            "Duration": "3273580000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:02.34Z",
+            "Bytes": "157917822",
+            "Samples": "5130",
+            "InstRate": "100725",
+            "CurRate": "74111",
+            "AvgRate": "48240",
+            "PeakRate": "5130310",
+            "BytesRem": "0",
+            "Duration": "3273580000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6761"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1194661"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "47326"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "47"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "195.3.220.54"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "c4778a3278fac876751fe37670f9203dfdaab54c",
+          "listen_addr": "65.108.72.253:12656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "itrocket",
+          "other": {
+            "tx_index": "off",
+            "rpc_address": "tcp://0.0.0.0:12657"
+          }
+        },
+        "is_outbound": true,
+        "connection_status": {
+          "Duration": "3273628027762",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:02.36Z",
+            "Bytes": "312283120",
+            "Samples": "6408",
+            "InstRate": "6540",
+            "CurRate": "261656",
+            "AvgRate": "95396",
+            "PeakRate": "5222560",
+            "BytesRem": "0",
+            "Duration": "3273560000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:02.36Z",
+            "Bytes": "308189270",
+            "Samples": "6103",
+            "InstRate": "6750",
+            "CurRate": "102286",
+            "AvgRate": "94144",
+            "PeakRate": "5130310",
+            "BytesRem": "0",
+            "Duration": "3273600000000",
+            "Idle": "20000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6742"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1158468"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "54186"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "32"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "65.108.72.253"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "eb3efd89b85c5243ea628fd77ea2ef2b67364910",
+          "listen_addr": "185.111.159.185:11656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "Stake\u0026Relax RPC",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://0.0.0.0:11657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3272772872447",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:03.22Z",
+            "Bytes": "219720904",
+            "Samples": "1709",
+            "InstRate": "0",
+            "CurRate": "7954",
+            "AvgRate": "67136",
+            "PeakRate": "5216810",
+            "BytesRem": "0",
+            "Duration": "3272760000000",
+            "Idle": "4700000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:03.22Z",
+            "Bytes": "193764897",
+            "Samples": "20152",
+            "InstRate": "80422",
+            "CurRate": "67070",
+            "AvgRate": "59205",
+            "PeakRate": "1234600",
+            "BytesRem": "0",
+            "Duration": "3272760000000",
+            "Idle": "120000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "1",
+              "Priority": "5",
+              "RecentlySent": "416924"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "100",
+              "Priority": "6",
+              "RecentlySent": "3312"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "64",
+              "Priority": "10",
+              "RecentlySent": "832532"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "100",
+              "Priority": "7",
+              "RecentlySent": "29792"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "185.111.159.185"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "b7ffbfd0cdbdd214253351ac7e9fbe02bbe0bd26",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "MANCHIND",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3272416671006",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:03.56Z",
+            "Bytes": "331822610",
+            "Samples": "6285",
+            "InstRate": "31090",
+            "CurRate": "264014",
+            "AvgRate": "101402",
+            "PeakRate": "5220410",
+            "BytesRem": "0",
+            "Duration": "3272340000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:03.56Z",
+            "Bytes": "309251740",
+            "Samples": "6680",
+            "InstRate": "97017",
+            "CurRate": "313026",
+            "AvgRate": "94502",
+            "PeakRate": "5128640",
+            "BytesRem": "0",
+            "Duration": "3272420000000",
+            "Idle": "180000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "5618"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1051539"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "46176"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "95.111.243.135"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "27898daac100f1c7c98e38d1fbc67ac75ef11fcf",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "DIOCVVY",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3272176279425",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:03.8Z",
+            "Bytes": "337220563",
+            "Samples": "6585",
+            "InstRate": "4450",
+            "CurRate": "249694",
+            "AvgRate": "103057",
+            "PeakRate": "5223280",
+            "BytesRem": "0",
+            "Duration": "3272160000000",
+            "Idle": "20000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:03.8Z",
+            "Bytes": "147924875",
+            "Samples": "5176",
+            "InstRate": "1538",
+            "CurRate": "17928",
+            "AvgRate": "45207",
+            "PeakRate": "5130120",
+            "BytesRem": "0",
+            "Duration": "3272180000000",
+            "Idle": "160000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "5504"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1051537"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "48747"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "91"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "167.86.101.104"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "96ecf3360b7bf664cd101288a23f6d0e71fdc345",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "MIMMYWSDTER",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3271605759637",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:04.38Z",
+            "Bytes": "332982735",
+            "Samples": "6013",
+            "InstRate": "64858",
+            "CurRate": "243101",
+            "AvgRate": "101782",
+            "PeakRate": "5222490",
+            "BytesRem": "0",
+            "Duration": "3271540000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:04.38Z",
+            "Bytes": "314687197",
+            "Samples": "6852",
+            "InstRate": "73614",
+            "CurRate": "213363",
+            "AvgRate": "96189",
+            "PeakRate": "5128640",
+            "BytesRem": "0",
+            "Duration": "3271560000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6733"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1196556"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "63299"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "167.86.101.213"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "4052dabb710a7af75f8003d1d1b4e881a8b4b913",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "MNKPANDA",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3271343709332",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:04.64Z",
+            "Bytes": "337884608",
+            "Samples": "6427",
+            "InstRate": "5640",
+            "CurRate": "280210",
+            "AvgRate": "103289",
+            "PeakRate": "5222500",
+            "BytesRem": "0",
+            "Duration": "3271260000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:04.64Z",
+            "Bytes": "296893923",
+            "Samples": "6678",
+            "InstRate": "241859",
+            "CurRate": "389807",
+            "AvgRate": "90756",
+            "PeakRate": "5128640",
+            "BytesRem": "0",
+            "Duration": "3271340000000",
+            "Idle": "320000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6670"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1196244"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "53421"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "43"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "167.86.103.3"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "882c7dd2dface5b707c11e593566ac0dc7de19bb",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "ROKSTWEZ",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3270228628806",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:05.76Z",
+            "Bytes": "330440977",
+            "Samples": "6520",
+            "InstRate": "4500",
+            "CurRate": "237405",
+            "AvgRate": "101047",
+            "PeakRate": "5222790",
+            "BytesRem": "0",
+            "Duration": "3270160000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:05.76Z",
+            "Bytes": "265165326",
+            "Samples": "6120",
+            "InstRate": "167",
+            "CurRate": "183556",
+            "AvgRate": "81086",
+            "PeakRate": "5128640",
+            "BytesRem": "0",
+            "Duration": "3270180000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "5523"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "998335"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "38752"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "167.86.105.96"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "d49a032ca318c6b1027e7c783be6a4b0ab06f7cc",
+          "listen_addr": "tcp://0.0.0.0:6050",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "celestia_bertha",
+          "other": {
+            "tx_index": "off",
+            "rpc_address": "tcp://0.0.0.0:6051"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3269375918164",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:06.6Z",
+            "Bytes": "313243535",
+            "Samples": "6506",
+            "InstRate": "4450",
+            "CurRate": "234077",
+            "AvgRate": "95812",
+            "PeakRate": "5223380",
+            "BytesRem": "0",
+            "Duration": "3269360000000",
+            "Idle": "20000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:06.6Z",
+            "Bytes": "248351738",
+            "Samples": "5994",
+            "InstRate": "3063",
+            "CurRate": "52959",
+            "AvgRate": "75964",
+            "PeakRate": "5130330",
+            "BytesRem": "0",
+            "Duration": "3269340000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6674"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1044160"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "66039"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "32"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "65.109.85.226"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "8bb8e34ac6eb4ddb927bb1cbbd44357683123af1",
+          "listen_addr": "celestia-testnet.p2p.brocha.in:30542",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "celestia-validator-669846c86f-lx2vt",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://0.0.0.0:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3269224096824",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:06.76Z",
+            "Bytes": "269806306",
+            "Samples": "6295",
+            "InstRate": "3925",
+            "CurRate": "259654",
+            "AvgRate": "82531",
+            "PeakRate": "5222160",
+            "BytesRem": "0",
+            "Duration": "3269160000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:06.76Z",
+            "Bytes": "170722787",
+            "Samples": "5626",
+            "InstRate": "1875",
+            "CurRate": "112489",
+            "AvgRate": "52222",
+            "PeakRate": "5130330",
+            "BytesRem": "0",
+            "Duration": "3269180000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50291"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6557"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1082753"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "47559"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "37"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "176.9.98.24"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "b74107586fcf131fb05ee33f1309fdb4dc3c8efa",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "ZERF_NODE",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3269081018132",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:06.9Z",
+            "Bytes": "326467411",
+            "Samples": "6450",
+            "InstRate": "2670",
+            "CurRate": "272711",
+            "AvgRate": "99868",
+            "PeakRate": "5223090",
+            "BytesRem": "0",
+            "Duration": "3269000000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:06.9Z",
+            "Bytes": "192771140",
+            "Samples": "5653",
+            "InstRate": "24406",
+            "CurRate": "121386",
+            "AvgRate": "58969",
+            "PeakRate": "5128640",
+            "BytesRem": "0",
+            "Duration": "3269040000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "42759"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6535"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1053639"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "51862"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "155.133.26.206"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "247cad3e753322e71072275216aaa9f76fc37aee",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "GORD",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3268938876319",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:07.04Z",
+            "Bytes": "326842964",
+            "Samples": "6431",
+            "InstRate": "43330",
+            "CurRate": "267660",
+            "AvgRate": "99987",
+            "PeakRate": "5222250",
+            "BytesRem": "0",
+            "Duration": "3268860000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:07.04Z",
+            "Bytes": "218924954",
+            "Samples": "5666",
+            "InstRate": "2225",
+            "CurRate": "74590",
+            "AvgRate": "66972",
+            "PeakRate": "5129960",
+            "BytesRem": "0",
+            "Duration": "3268900000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6384"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1050138"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "50733"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "109.123.244.93"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "4e409a7e4e7cd930a9cfb0a97f5b51b50cd70c86",
+          "listen_addr": "tcp://0.0.0.0:26628",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "SkyNet | Validators",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26797"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3268786674897",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:07.2Z",
+            "Bytes": "297384473",
+            "Samples": "6421",
+            "InstRate": "4500",
+            "CurRate": "228573",
+            "AvgRate": "90979",
+            "PeakRate": "5221100",
+            "BytesRem": "0",
+            "Duration": "3268720000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:07.2Z",
+            "Bytes": "307674497",
+            "Samples": "6100",
+            "InstRate": "6763",
+            "CurRate": "53989",
+            "AvgRate": "94126",
+            "PeakRate": "5130290",
+            "BytesRem": "0",
+            "Duration": "3268760000000",
+            "Idle": "20000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6289"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "966456"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "43433"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "65.21.199.148"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "5d8f9d539b1e6703478f0ae2e20f3346ae5283ec",
+          "listen_addr": "tcp://80.240.21.25:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "active-nodes",
+          "other": {
+            "tx_index": "off",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": true,
+        "connection_status": {
+          "Duration": "1593691145363",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:28:02.3Z",
+            "Bytes": "121960703",
+            "Samples": "3047",
+            "InstRate": "5340",
+            "CurRate": "227129",
+            "AvgRate": "76530",
+            "PeakRate": "5218920",
+            "BytesRem": "0",
+            "Duration": "1593640000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:28:02.3Z",
+            "Bytes": "93277048",
+            "Samples": "2752",
+            "InstRate": "13070",
+            "CurRate": "29438",
+            "AvgRate": "58530",
+            "PeakRate": "5128640",
+            "BytesRem": "0",
+            "Duration": "1593660000000",
+            "Idle": "20000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6683"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1028466"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "54512"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "80.240.21.25"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "007d1b2b6d9f9c35eb096502fc7671adb031c3f7",
+          "listen_addr": "celestia-testnet.p2p.brocha.in:30542",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "Brochain",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://0.0.0.0:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3267904790932",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:08.08Z",
+            "Bytes": "897827",
+            "Samples": "5294",
+            "InstRate": "900",
+            "CurRate": "2166",
+            "AvgRate": "275",
+            "PeakRate": "10440",
+            "BytesRem": "0",
+            "Duration": "3267900000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:08.08Z",
+            "Bytes": "2744",
+            "Samples": "546",
+            "InstRate": "0",
+            "CurRate": "0",
+            "AvgRate": "1",
+            "PeakRate": "8",
+            "BytesRem": "0",
+            "Duration": "3267900000000",
+            "Idle": "5260000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6791"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "142.132.134.181"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "af4ff900c65bb01262e0d3cdb346ff8c632d7e97",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "BROVENOM",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3267889567189",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:08.1Z",
+            "Bytes": "358263072",
+            "Samples": "6368",
+            "InstRate": "5340",
+            "CurRate": "294900",
+            "AvgRate": "109633",
+            "PeakRate": "5223230",
+            "BytesRem": "0",
+            "Duration": "3267840000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:08.1Z",
+            "Bytes": "250933374",
+            "Samples": "6169",
+            "InstRate": "4433",
+            "CurRate": "140203",
+            "AvgRate": "76790",
+            "PeakRate": "5129920",
+            "BytesRem": "0",
+            "Duration": "3267800000000",
+            "Idle": "80000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6784"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1200980"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "58471"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "95.111.243.138"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "dadb05368c08b1ea13e67ab1e552b53fbdff56ed",
+          "listen_addr": "tcp://0.0.0.0:6050",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "celestia_bertha",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://0.0.0.0:6051"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3266914918614",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:09.06Z",
+            "Bytes": "307787901",
+            "Samples": "6496",
+            "InstRate": "4710",
+            "CurRate": "275805",
+            "AvgRate": "94216",
+            "PeakRate": "5220790",
+            "BytesRem": "0",
+            "Duration": "3266840000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:09.06Z",
+            "Bytes": "249630442",
+            "Samples": "5972",
+            "InstRate": "91807",
+            "CurRate": "64467",
+            "AvgRate": "76413",
+            "PeakRate": "5130120",
+            "BytesRem": "0",
+            "Duration": "3266840000000",
+            "Idle": "80000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6383"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1049794"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "61860"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "65.109.85.225"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "c5acce2f30d380eba6480237e9c7ebee6a80e048",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "Anonstake",
+          "other": {
+            "tx_index": "off",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3266467935456",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:09.52Z",
+            "Bytes": "359812262",
+            "Samples": "6517",
+            "InstRate": "5625",
+            "CurRate": "309467",
+            "AvgRate": "110156",
+            "PeakRate": "5223010",
+            "BytesRem": "0",
+            "Duration": "3266400000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:09.52Z",
+            "Bytes": "207681638",
+            "Samples": "4194",
+            "InstRate": "13000",
+            "CurRate": "217287",
+            "AvgRate": "63581",
+            "PeakRate": "5129960",
+            "BytesRem": "0",
+            "Duration": "3266420000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40232"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "5678"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1016108"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "45325"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "31.7.196.15"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "cda1aab1d1b5b49cb8526e26d0ef5886100b14d1",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "pratiknode",
+          "other": {
+            "tx_index": "off",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3266166938855",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:09.82Z",
+            "Bytes": "339623009",
+            "Samples": "6619",
+            "InstRate": "56150",
+            "CurRate": "289132",
+            "AvgRate": "103984",
+            "PeakRate": "5222450",
+            "BytesRem": "0",
+            "Duration": "3266120000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:09.82Z",
+            "Bytes": "237163225",
+            "Samples": "5736",
+            "InstRate": "105958",
+            "CurRate": "238572",
+            "AvgRate": "72614",
+            "PeakRate": "5129960",
+            "BytesRem": "0",
+            "Duration": "3266080000000",
+            "Idle": "80000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "5504"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1017549"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "53962"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "33"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "159.223.206.247"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "ac303479be79ad7a60b92dd45cfd0fa969b2a94c",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "CELESTIA_NODE",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3264149184684",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:11.84Z",
+            "Bytes": "288040570",
+            "Samples": "6380",
+            "InstRate": "37860",
+            "CurRate": "230999",
+            "AvgRate": "88245",
+            "PeakRate": "5223280",
+            "BytesRem": "0",
+            "Duration": "3264100000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:11.84Z",
+            "Bytes": "251872611",
+            "Samples": "5786",
+            "InstRate": "300",
+            "CurRate": "20030",
+            "AvgRate": "77164",
+            "PeakRate": "5130290",
+            "BytesRem": "0",
+            "Duration": "3264140000000",
+            "Idle": "140000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "5493"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "982904"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "42280"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "5.189.147.202"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "7063802d3bbae16f24630a541d945786a81cceff",
+          "listen_addr": "24.207.176.67:26766",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "Architect Nodes",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26767"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3263386606270",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:12.6Z",
+            "Bytes": "269607625",
+            "Samples": "6839",
+            "InstRate": "4500",
+            "CurRate": "29069",
+            "AvgRate": "82618",
+            "PeakRate": "5222470",
+            "BytesRem": "0",
+            "Duration": "3263320000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:12.6Z",
+            "Bytes": "198795560",
+            "Samples": "22731",
+            "InstRate": "51700",
+            "CurRate": "45736",
+            "AvgRate": "60917",
+            "PeakRate": "1154633",
+            "BytesRem": "0",
+            "Duration": "3263380000000",
+            "Idle": "20000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6688"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "493113"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "42899"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "24.207.176.67"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "04ae99fafcc207385c300ee6d13d3b986049805f",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "crynods8cel4",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3258244426136",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:17.74Z",
+            "Bytes": "244560596",
+            "Samples": "6334",
+            "InstRate": "4710",
+            "CurRate": "273663",
+            "AvgRate": "75061",
+            "PeakRate": "5222430",
+            "BytesRem": "0",
+            "Duration": "3258160000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:17.74Z",
+            "Bytes": "259320408",
+            "Samples": "6028",
+            "InstRate": "134542",
+            "CurRate": "105627",
+            "AvgRate": "79591",
+            "PeakRate": "5130120",
+            "BytesRem": "0",
+            "Duration": "3258180000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "1366"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "5527"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1048489"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "53778"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "65.108.133.110"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "6219ee5687736a86b5730e8377892624131eede9",
+          "listen_addr": "tcp://0.0.0.0:2083",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "Validatus",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:2081"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3246812222605",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:29.18Z",
+            "Bytes": "306960644",
+            "Samples": "6415",
+            "InstRate": "5340",
+            "CurRate": "28389",
+            "AvgRate": "94544",
+            "PeakRate": "5222790",
+            "BytesRem": "0",
+            "Duration": "3246760000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:29.18Z",
+            "Bytes": "248531381",
+            "Samples": "4475",
+            "InstRate": "1648",
+            "CurRate": "11484",
+            "AvgRate": "76547",
+            "PeakRate": "5130270",
+            "BytesRem": "0",
+            "Duration": "3246800000000",
+            "Idle": "1400000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6298"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "470963"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "36608"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "94.130.132.227"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "4d839d97cd80bc132d9e2667d6665335a8614769",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "PNDSWAWLL",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3240019396897",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:35.96Z",
+            "Bytes": "328872047",
+            "Samples": "6407",
+            "InstRate": "5625",
+            "CurRate": "266029",
+            "AvgRate": "101505",
+            "PeakRate": "5222950",
+            "BytesRem": "0",
+            "Duration": "3239960000000",
+            "Idle": "0",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:35.96Z",
+            "Bytes": "308742954",
+            "Samples": "6679",
+            "InstRate": "148325",
+            "CurRate": "331100",
+            "AvgRate": "95291",
+            "PeakRate": "5128640",
+            "BytesRem": "0",
+            "Duration": "3240000000000",
+            "Idle": "0",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "5456"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "959503"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "45502"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "25"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "167.86.105.58"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "76e187ccf7b70087e5aeaef825530aeb187777ba",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "RABBYBUR",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3238043725494",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:37.94Z",
+            "Bytes": "338820410",
+            "Samples": "6600",
+            "InstRate": "52070",
+            "CurRate": "255716",
+            "AvgRate": "104639",
+            "PeakRate": "5221230",
+            "BytesRem": "0",
+            "Duration": "3238000000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:37.94Z",
+            "Bytes": "99907887",
+            "Samples": "5081",
+            "InstRate": "78769",
+            "CurRate": "43656",
+            "AvgRate": "30855",
+            "PeakRate": "5129020",
+            "BytesRem": "0",
+            "Duration": "3238020000000",
+            "Idle": "20000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "5460"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "983430"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "50624"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "167.86.102.218"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "42b331adaa9ece4c455b92f0d26e3382e46d43f0",
+          "listen_addr": "tcp://0.0.0.0:56656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "blockscope",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://0.0.0.0:56657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3231893906095",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:44.08Z",
+            "Bytes": "346695476",
+            "Samples": "6334",
+            "InstRate": "4710",
+            "CurRate": "266639",
+            "AvgRate": "107276",
+            "PeakRate": "5223130",
+            "BytesRem": "0",
+            "Duration": "3231820000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:44.08Z",
+            "Bytes": "264677940",
+            "Samples": "6259",
+            "InstRate": "467",
+            "CurRate": "203697",
+            "AvgRate": "81895",
+            "PeakRate": "5129960",
+            "BytesRem": "0",
+            "Duration": "3231900000000",
+            "Idle": "180000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6787"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1198585"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "57430"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "161.97.180.20"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "2cdbb3f9f9ac356bc6691322f58703e0a4595f5f",
+          "listen_addr": "65.21.247.208:11656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "BONG_NODE",
+          "other": {
+            "tx_index": "off",
+            "rpc_address": "tcp://0.0.0.0:11657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3227584289870",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:48.4Z",
+            "Bytes": "307392962",
+            "Samples": "6357",
+            "InstRate": "5340",
+            "CurRate": "248855",
+            "AvgRate": "95241",
+            "PeakRate": "5223370",
+            "BytesRem": "0",
+            "Duration": "3227540000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:48.4Z",
+            "Bytes": "254513124",
+            "Samples": "5770",
+            "InstRate": "45359",
+            "CurRate": "114947",
+            "AvgRate": "78856",
+            "PeakRate": "5130330",
+            "BytesRem": "0",
+            "Duration": "3227580000000",
+            "Idle": "0",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6729"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1112560"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "47417"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "47"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "65.21.247.208"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "85e68d4a88638fe61df114f6db4c30cfd0dcb5f3",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "MY_NODE",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3227328723785",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:00:48.66Z",
+            "Bytes": "309303466",
+            "Samples": "6406",
+            "InstRate": "33790",
+            "CurRate": "250356",
+            "AvgRate": "95840",
+            "PeakRate": "5222500",
+            "BytesRem": "0",
+            "Duration": "3227280000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:00:48.66Z",
+            "Bytes": "208467664",
+            "Samples": "5391",
+            "InstRate": "2460",
+            "CurRate": "21470",
+            "AvgRate": "64595",
+            "PeakRate": "5130120",
+            "BytesRem": "0",
+            "Duration": "3227320000000",
+            "Idle": "100000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6577"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1196890"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "54529"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "89.116.31.171"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "ec238730a2019e25cef3a723b08d2071f96f49db",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "CRYPTOSAGAZ",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3214326188330",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:01:01.66Z",
+            "Bytes": "316751623",
+            "Samples": "6228",
+            "InstRate": "5340",
+            "CurRate": "249505",
+            "AvgRate": "98545",
+            "PeakRate": "5222940",
+            "BytesRem": "0",
+            "Duration": "3214280000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:01:01.66Z",
+            "Bytes": "277947353",
+            "Samples": "5713",
+            "InstRate": "7920",
+            "CurRate": "42750",
+            "AvgRate": "86473",
+            "PeakRate": "5130120",
+            "BytesRem": "0",
+            "Duration": "3214280000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "5554"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1051470"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "60723"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "25"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "185.252.235.73"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "5c516a6d536dca0071097a4590230ab05b80d6ef",
+          "listen_addr": "65.108.108.52:14656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "ERN_VENTURES",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:14657"
+          }
+        },
+        "is_outbound": true,
+        "connection_status": {
+          "Duration": "3213626769315",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:01:02.36Z",
+            "Bytes": "283150889",
+            "Samples": "6276",
+            "InstRate": "5340",
+            "CurRate": "229086",
+            "AvgRate": "88111",
+            "PeakRate": "5222640",
+            "BytesRem": "0",
+            "Duration": "3213580000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:01:02.36Z",
+            "Bytes": "299933419",
+            "Samples": "5941",
+            "InstRate": "5625",
+            "CurRate": "38991",
+            "AvgRate": "93334",
+            "PeakRate": "5130270",
+            "BytesRem": "0",
+            "Duration": "3213560000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6744"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "811279"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "59928"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "65.108.108.52"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "db1723a167c0b895697dde4a609a3df8489b52e8",
+          "listen_addr": "125.143.190.194:10002",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "dsrv",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": true,
+        "connection_status": {
+          "Duration": "3213075654718",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:01:02.9Z",
+            "Bytes": "332468978",
+            "Samples": "6450",
+            "InstRate": "6270",
+            "CurRate": "295079",
+            "AvgRate": "103475",
+            "PeakRate": "5222950",
+            "BytesRem": "0",
+            "Duration": "3213040000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:01:02.9Z",
+            "Bytes": "308513592",
+            "Samples": "5912",
+            "InstRate": "405310",
+            "CurRate": "364784",
+            "AvgRate": "96018",
+            "PeakRate": "5129940",
+            "BytesRem": "0",
+            "Duration": "3213080000000",
+            "Idle": "80000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "42762"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6607"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1092074"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "58145"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "125.143.190.194"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "c95b578939d69021600b57792857723122832fe4",
+          "listen_addr": "tcp://0.0.0.0:30656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "Citizen Cosmos",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://0.0.0.0:30657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3212347876100",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:01:03.64Z",
+            "Bytes": "313146017",
+            "Samples": "6414",
+            "InstRate": "4710",
+            "CurRate": "265234",
+            "AvgRate": "97485",
+            "PeakRate": "5223090",
+            "BytesRem": "0",
+            "Duration": "3212260000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:01:03.64Z",
+            "Bytes": "209423817",
+            "Samples": "5652",
+            "InstRate": "116575",
+            "CurRate": "20956",
+            "AvgRate": "65194",
+            "PeakRate": "5130330",
+            "BytesRem": "0",
+            "Duration": "3212300000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "5566"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1049257"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "48300"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "25"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "51.159.223.25"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "385d4b327e996e2b6898f930befc5072b9c0ae80",
+          "listen_addr": "34.106.192.195:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "node",
+          "other": {
+            "tx_index": "off",
+            "rpc_address": "tcp://0.0.0.0:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3189614583968",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:01:26.36Z",
+            "Bytes": "322691722",
+            "Samples": "6401",
+            "InstRate": "2460",
+            "CurRate": "278494",
+            "AvgRate": "101171",
+            "PeakRate": "5223090",
+            "BytesRem": "0",
+            "Duration": "3189560000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:01:26.36Z",
+            "Bytes": "289430545",
+            "Samples": "5882",
+            "InstRate": "94779",
+            "CurRate": "243426",
+            "AvgRate": "90743",
+            "PeakRate": "5130310",
+            "BytesRem": "0",
+            "Duration": "3189580000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6742"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1197540"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "72494"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "34.106.192.195"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "67becfb52dbe359034ff23281b5cc3ff7882ffe7",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "MANIEK",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3184813143617",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:01:31.18Z",
+            "Bytes": "305350819",
+            "Samples": "6269",
+            "InstRate": "5340",
+            "CurRate": "255632",
+            "AvgRate": "95879",
+            "PeakRate": "5222950",
+            "BytesRem": "0",
+            "Duration": "3184760000000",
+            "Idle": "20000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:01:31.18Z",
+            "Bytes": "195216708",
+            "Samples": "5026",
+            "InstRate": "100",
+            "CurRate": "17235",
+            "AvgRate": "61297",
+            "PeakRate": "5128640",
+            "BytesRem": "0",
+            "Duration": "3184760000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6298"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1051577"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "69359"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "194.163.180.150"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "06b3217d93b3d392e553441297dd97ecc954bcb5",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "HAMOJOJO",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3179313738887",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:01:36.66Z",
+            "Bytes": "313455019",
+            "Samples": "6292",
+            "InstRate": "3300",
+            "CurRate": "257272",
+            "AvgRate": "98593",
+            "PeakRate": "5223140",
+            "BytesRem": "0",
+            "Duration": "3179280000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:01:36.66Z",
+            "Bytes": "201138498",
+            "Samples": "5427",
+            "InstRate": "16520",
+            "CurRate": "54732",
+            "AvgRate": "63265",
+            "PeakRate": "5130120",
+            "BytesRem": "0",
+            "Duration": "3179280000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6573"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1091058"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "67211"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "37"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "86.48.2.123"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "1f243a32a4c741e6838f247350f0aa7655ea264e",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "KalpaTech",
+          "other": {
+            "tx_index": "off",
+            "rpc_address": "tcp://0.0.0.0:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3176616923482",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:01:39.36Z",
+            "Bytes": "315898548",
+            "Samples": "5647",
+            "InstRate": "4500",
+            "CurRate": "294352",
+            "AvgRate": "99447",
+            "PeakRate": "5222630",
+            "BytesRem": "0",
+            "Duration": "3176560000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:01:39.36Z",
+            "Bytes": "288643992",
+            "Samples": "9294",
+            "InstRate": "398108",
+            "CurRate": "192891",
+            "AvgRate": "90866",
+            "PeakRate": "5128640",
+            "BytesRem": "0",
+            "Duration": "3176600000000",
+            "Idle": "20000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "5994"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1009171"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "53286"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "173.249.40.87"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "1f563c69bafdeda701bbc9b8bc7185603f22b295",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "MY_NODE",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3161820738501",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:01:54.16Z",
+            "Bytes": "315992036",
+            "Samples": "6334",
+            "InstRate": "5340",
+            "CurRate": "259126",
+            "AvgRate": "99941",
+            "PeakRate": "5223020",
+            "BytesRem": "0",
+            "Duration": "3161780000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:01:54.16Z",
+            "Bytes": "22316180",
+            "Samples": "4440",
+            "InstRate": "2794",
+            "CurRate": "4174",
+            "AvgRate": "7058",
+            "PeakRate": "5128640",
+            "BytesRem": "0",
+            "Duration": "3161820000000",
+            "Idle": "340000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6765"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1197694"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "57376"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "185.250.36.27"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "2308c68a817f84dfbd86d7abf9f1cbe82172751a",
+          "listen_addr": "181.188.232.25:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "LatamCelestia",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3150616640962",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:02:05.36Z",
+            "Bytes": "316676710",
+            "Samples": "6393",
+            "InstRate": "5625",
+            "CurRate": "290684",
+            "AvgRate": "100514",
+            "PeakRate": "5223360",
+            "BytesRem": "0",
+            "Duration": "3150560000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:02:05.36Z",
+            "Bytes": "278609004",
+            "Samples": "6244",
+            "InstRate": "535206",
+            "CurRate": "358057",
+            "AvgRate": "88432",
+            "PeakRate": "5129220",
+            "BytesRem": "0",
+            "Duration": "3150540000000",
+            "Idle": "0",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "5994"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1051569"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "53779"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "181.188.232.25"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "eba6a528b774854154959bf3f5ef9db49342f036",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "NOPHILTER",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3147983602923",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:02:08Z",
+            "Bytes": "324411994",
+            "Samples": "6095",
+            "InstRate": "128400",
+            "CurRate": "272483",
+            "AvgRate": "103054",
+            "PeakRate": "5222020",
+            "BytesRem": "0",
+            "Duration": "3147980000000",
+            "Idle": "1040000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:02:08Z",
+            "Bytes": "223616316",
+            "Samples": "8906",
+            "InstRate": "131542",
+            "CurRate": "71003",
+            "AvgRate": "71035",
+            "PeakRate": "2827060",
+            "BytesRem": "0",
+            "Duration": "3147980000000",
+            "Idle": "0",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "100",
+              "Priority": "6",
+              "RecentlySent": "3271"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "1",
+              "Priority": "10",
+              "RecentlySent": "1133164"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "100",
+              "Priority": "7",
+              "RecentlySent": "28474"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "96.20.48.7"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "0640e5f6916438c593c888469637bbc0d3151784",
+          "listen_addr": "tcp://185.252.220.89:25009",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "Easy2Stake",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3143951872473",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:02:12.04Z",
+            "Bytes": "340897374",
+            "Samples": "5241",
+            "InstRate": "5130",
+            "CurRate": "288584",
+            "AvgRate": "108431",
+            "PeakRate": "5222980",
+            "BytesRem": "0",
+            "Duration": "3143920000000",
+            "Idle": "20000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:02:12.04Z",
+            "Bytes": "279040587",
+            "Samples": "6011",
+            "InstRate": "46830",
+            "CurRate": "348811",
+            "AvgRate": "88757",
+            "PeakRate": "5128640",
+            "BytesRem": "0",
+            "Duration": "3143880000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6806"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1219452"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "73494"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "185.252.220.89"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "ae73519b48b536baee76157aea06e40a1c504d51",
+          "listen_addr": "tcp://0.0.0.0:13656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "x3",
+          "other": {
+            "tx_index": "off",
+            "rpc_address": "tcp://0.0.0.0:13657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3129623158778",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:02:26.36Z",
+            "Bytes": "270581024",
+            "Samples": "6122",
+            "InstRate": "5340",
+            "CurRate": "224726",
+            "AvgRate": "86459",
+            "PeakRate": "5222790",
+            "BytesRem": "0",
+            "Duration": "3129580000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:02:26.36Z",
+            "Bytes": "247391900",
+            "Samples": "5617",
+            "InstRate": "6750",
+            "CurRate": "103310",
+            "AvgRate": "79049",
+            "PeakRate": "5130080",
+            "BytesRem": "0",
+            "Duration": "3129600000000",
+            "Idle": "20000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6742"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1033609"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "48559"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "65.108.238.61"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "d9b5bdf0544bcb76240618701b33fe4782901f20",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "CR_BHAURYAL",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3124023295835",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:02:31.96Z",
+            "Bytes": "341160581",
+            "Samples": "6394",
+            "InstRate": "5340",
+            "CurRate": "605659",
+            "AvgRate": "109207",
+            "PeakRate": "5223320",
+            "BytesRem": "0",
+            "Duration": "3123980000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:02:31.96Z",
+            "Bytes": "154931600",
+            "Samples": "4053",
+            "InstRate": "700",
+            "CurRate": "2180",
+            "AvgRate": "49594",
+            "PeakRate": "5128760",
+            "BytesRem": "0",
+            "Duration": "3124020000000",
+            "Idle": "120000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "5481"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "960042"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "35424"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "217.76.57.0"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "6dd7ccf76ee531a102f5f9e24b7cc521c9a01a28",
+          "listen_addr": "65.109.85.170:37656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "romanv1812",
+          "other": {
+            "tx_index": "off",
+            "rpc_address": "tcp://0.0.0.0:37657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3106226782810",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:02:49.76Z",
+            "Bytes": "249194932",
+            "Samples": "5963",
+            "InstRate": "7170",
+            "CurRate": "222059",
+            "AvgRate": "80224",
+            "PeakRate": "5220750",
+            "BytesRem": "0",
+            "Duration": "3106220000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:02:49.76Z",
+            "Bytes": "277048538",
+            "Samples": "5853",
+            "InstRate": "92744",
+            "CurRate": "67220",
+            "AvgRate": "89193",
+            "PeakRate": "5129960",
+            "BytesRem": "0",
+            "Duration": "3106180000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "38867"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "5520"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "968699"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "38161"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "65.109.85.170"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "79b838bc0084555949d813a1a0c51dcd6c9a2df3",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "BwareLabs",
+          "other": {
+            "tx_index": "off",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "3082752896087",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:03:13.24Z",
+            "Bytes": "259408214",
+            "Samples": "5909",
+            "InstRate": "3925",
+            "CurRate": "254104",
+            "AvgRate": "84150",
+            "PeakRate": "5220790",
+            "BytesRem": "0",
+            "Duration": "3082680000000",
+            "Idle": "60000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:03:13.24Z",
+            "Bytes": "273664564",
+            "Samples": "5697",
+            "InstRate": "3300",
+            "CurRate": "179926",
+            "AvgRate": "88773",
+            "PeakRate": "5130120",
+            "BytesRem": "0",
+            "Duration": "3082740000000",
+            "Idle": "100000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "40233"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6251"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "799702"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "48061"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "34"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "65.108.235.238"
+      },
+      {
+        "node_info": {
+          "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+          },
+          "id": "1da64320a9066cf0170b317fea821d94e6e47588",
+          "listen_addr": "tcp://0.0.0.0:26656",
+          "network": "mocha",
+          "version": "0.34.20",
+          "channels": "40202122233038606100",
+          "moniker": "ANCLO",
+          "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://127.0.0.1:26657"
+          }
+        },
+        "is_outbound": false,
+        "connection_status": {
+          "Duration": "1061844354422",
+          "SendMonitor": {
+            "Start": "2023-05-12T10:36:54.14Z",
+            "Bytes": "88474892",
+            "Samples": "2055",
+            "InstRate": "5340",
+            "CurRate": "333510",
+            "AvgRate": "83325",
+            "PeakRate": "5219640",
+            "BytesRem": "0",
+            "Duration": "1061800000000",
+            "Idle": "40000000",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "RecvMonitor": {
+            "Start": "2023-05-12T10:36:54.14Z",
+            "Bytes": "58847030",
+            "Samples": "1589",
+            "InstRate": "557081",
+            "CurRate": "212397",
+            "AvgRate": "55422",
+            "PeakRate": "5128640",
+            "BytesRem": "0",
+            "Duration": "1061800000000",
+            "Idle": "0",
+            "TimeRem": "0",
+            "Progress": 0,
+            "Active": true
+          },
+          "Channels": [
+            {
+              "ID": 48,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "50292"
+            },
+            {
+              "ID": 64,
+              "SendQueueCapacity": "1000",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 32,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "6789"
+            },
+            {
+              "ID": 33,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "10",
+              "RecentlySent": "1196305"
+            },
+            {
+              "ID": 34,
+              "SendQueueCapacity": "100",
+              "SendQueueSize": "0",
+              "Priority": "7",
+              "RecentlySent": "57865"
+            },
+            {
+              "ID": 35,
+              "SendQueueCapacity": "2",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "43"
+            },
+            {
+              "ID": 56,
+              "SendQueueCapacity": "1",
+              "SendQueueSize": "0",
+              "Priority": "6",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 96,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "5",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 97,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "3",
+              "RecentlySent": "0"
+            },
+            {
+              "ID": 0,
+              "SendQueueCapacity": "10",
+              "SendQueueSize": "0",
+              "Priority": "1",
+              "RecentlySent": "0"
+            }
+          ]
+        },
+        "remote_ip": "217.76.50.181"
+      }
+    ]
+  }
+}
